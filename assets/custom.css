@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Aller Display;
+    src: url(fonts/aller.display.ttf);
+}
+
+@font-face {
+    font-family: Gotham Light;
+    src: url(fonts/GOTHAM-LIGHT.ttf);
+}
+
+@font-face {
+    font-family: Gotham Medium;
+    src: url(fonts/GOTHAM-MEDIUM.ttf);
+}
+
+@font-face {
+    font-family: Kayak Light;
+    src: url(fonts/Kayak-Sans-Light.otf);
+}
+
+@font-face {
+    font-family: Kayak;
+    src: url(fonts/Kayak-Sans-Regular.otf);
+}
+
+@font-face {
+    font-family: Kayak Bold;
+    src: url(fonts/Kayak-Sans-Bold.otf);
+}
+
+@font-face {
+    font-family: Jaapokki;
+    src: url(fonts/jaapokki-regular.ttf);
+}
+
+@font-face {
+    font-family: Jaapokki Sub;
+    src: url(fonts/jaapokkisubtract-regular.ttf);
+}
+
+@font-face {
+    font-family: Bariol;
+    src: url(fonts/bariol_regular-webfont.ttf);
+}
+
+span {
+    line-height: 60px;
+}
+
+.content {
+    height: 100%;
+}
+
+.content p {
+    font-family: "Gotham Light";
+    text-align: justify;
+}
+
+.bar {
+    width: 100%;
+    height: 60px;
+    border-bottom-color: #05696D;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    background-color: #474443;
+    z-index: 4;
+}
+
+.menu {
+    height: 100%;
+    width: 100px;
+    background-color: #474443;
+    font-family: "Bariol", Arial;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+.menu:hover {
+    background-color: #757475;
+}
+
+#gohome.bg {
+    background: url(images/ajk-compressor.svg) no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+}
+
+#gohome.bg:hover {
+    background-color: #757475;
+}
+
+.field {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin: 0px;
+}
+
+.field#pro {
+    background: url(images/bg1.png);
+    background-size: 250px auto;
+    background-attachment: fixed;
+}
+
+.field #act{
+    height: 100%;
+    width: 100%;
+    background: url(images/bg3.png);
+    background-size: 400px auto;
+    background-attachment: fixed;
+}
+
+#one, #two, #three, #four {
+    border-top: #05696D;
+    border-top-style: solid;
+    border-top-width: 10px;
+    position: absolute;
+    z-index: 3;
+}
+
+#labLogo {
+    width: 50%;
+    display: inline;
+    float: left;
+    background: url(images/ajk-compressor.svg) no-repeat;
+    background-attachment: fixed;
+    background-size: 35%;
+    background-position: 400px 300px;
+}
+
+#labText {
+    width: 50%;
+    display: inline;
+    float: right;
+    position: fixed;
+}
+
+p#mainText {
+    font-family: "Aller Display", Arial; 
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-top: 36%;
+    z-index: -2;
+}
+
+.content#profile {
+    height: 90%;
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.content#profile h1 {
+    font-family: "Gotham Medium";
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.content#activity {
+    height: 90%;
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0px;
+    margin-top: 5%;
+    position: absolute;
+    text-align: center;
+}
+
+.content#activity h1 {
+    font-family: "Gotham Medium";
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.act-img {
+    width: 45%;
+    height: 35%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    vertical-align: bottom;
+    transition: width 0.3s, height 0.3s;
+}
+
+.act-img:hover {
+    width: 46%;
+    height: 36%;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+    opacity: 0.4;
+    transition: opacity 0.3s;
+}
+
+.layer:hover {
+    opacity: 0;
+}
+
+.act-img#lbe {
+    background-image: url(images/lbe.jpg);
+    background-position: 0px -30px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.act-img#pelatihan {
+    background-image: url(images/pelatihan.jpg);
+    background-position: 0px -30px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.act-img#pengmas {
+    background-image: url(images/pengmas.jpg);
+    background-position: 0px -30px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.act-txt {
+    width: 100%;
+    height: 20%;
+    color: #ffffff;
+    font-family: "Gotham Medium";
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    line-height: 40px;
+}
+
+.content#research {
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+    margin-top: 7%;
+    margin-bottom: 0px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content#research h1 {
+    font-family: "Gotham Medium";
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.rsc {
+    height: 200px;
+    width: 375px;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    display: inline-block;
+    padding: 5px;
+    
+    position: relative;
+    float: left;
+}
+
+.rsc h3{
+    font-family: "Gotham Medium";
+    font-size: 20px;
+    display: inline-block;
+}
+
+.rsc p {
+    font-size: 13px;
+    text-align: left;
+}
+
+.rsc a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    display: inline-block;
+    float: left;
+}
+
+.iconOff {
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    float: left;
+}
+
+.balance {
+    height: 120px;
+    width: 275px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin-right: 5px;
+}
+
+.content#team {
+    height: 90%;
+    width: 80%;
+    margin: 10%;
+    margin-top: 7%;
+    margin-bottom: 0px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+}
+
+.content#team h1 {
+    font-family: "Gotham Medium";
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#tail {
+    border-top-color: #004B7D;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 0px;
+    font-family: "Kayak Bold";
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.member {
+    height: 270px;
+    width: 5%;
+    background-color: white;
+    display: inline-block;
+    margin-right: -3px;
+    opacity: 0.8;
+    transition: width 0.5s, opacity 0.25s;
+    transition-timing-function: ease-out;
+}
+
+.member:hover {
+    width: 10%;
+    opacity: 1;
+}
+
+.member div {
+    height: 85%;
+    width:  100%;
+}
