@@ -22,7 +22,7 @@ $(document).ready(function() {
             }
 
             if($window.scrollTop() < 650) {
-                $('.bar').css('border-bottom-color', '#05696D');
+                $('.bar').css('border-bottom-color', '#0A6BCC');
             }
             else if($window.scrollTop() >= 650 && $window.scrollTop() < 1350) {
                 $('.bar').css('border-bottom-color', '#757475');

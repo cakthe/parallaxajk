@@ -23,7 +23,7 @@
         <a href="#res"><div class="menu"><span>Research</span></div></a>
         <a href="#tim"><div class="menu"><span>Team</span></div></a>
     </div>
-    <div class="field" id="home" style="background-color: #0AA1AA">
+    <div class="field" id="home" style="background-color: #1789FC">
         <div class="content" id="labLogo" data-stellar-background-ratio="0.4"></div>
         <div class="content" id="labText" data-stellar-ratio="0.4">
             <p id="mainText">LABORATORIUM
