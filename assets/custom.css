@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: Aller Display;
-    src: url(fonts/aller.display.ttf);
+    font-family: Nevis;
+    src: url(fonts/nevis.ttf);
 }
 
 @font-face {
@@ -144,7 +144,7 @@ span {
 }
 
 p#mainText {
-    font-family: "Aller Display", Arial; 
+    font-family: "Nevis", Arial; 
     font-size: 50px;
     color: #FFFFFF;
     margin-top: 36%;
